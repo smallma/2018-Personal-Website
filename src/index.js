@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { AppContainer } from 'react-hot-loader';
-import scss from './styles/index.scss';
-
+// import { AppContainer } from 'react-hot-loader';
+import './styles/index.scss';
 import Main from './containers/index.js'
 
 // const render = () => {
