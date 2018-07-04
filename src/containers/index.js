@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Starter from './starter.js'
+import Starter from '../components/starter.js'
 
 
 export default class Main extends Component {
@@ -8,7 +8,7 @@ export default class Main extends Component {
       <div style={{ textAlign: 'center' }}>
         <h2>Hello, I`m ReactMaker2.</h2>
         <p>To get started, edit containers/index.js</p>
-        <Starter />
+        <Starter name="Taylor" />
       </div>
     );
   }

@@ -32,9 +32,20 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png|jpg|gif|mp4|ogg|svg|woff|woff2|ttf|eot)$/,
+        test: /\.(mp4|ogg|svg|woff|woff2|ttf|eot)$/,
         loader: 'file-loader'
       },
+      {
+        test:/\.(png|jpg|gif)$/,
+        use:[{
+          loader:'url-loader',
+          options: {
+            limit:500,
+            outputPath: 'img/',// 指定打包后的图片位置
+            name:'[name].[ext]?[hash]'
+          }
+        }]
+      }
     ]
   },
   resolve: {
@@ -70,5 +81,6 @@ module.exports = {
   ],
   devServer: {
     compress: true,
+    port: '5566'
   },
 };
