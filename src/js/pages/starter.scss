@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+  max-width: 2560px;
+  margin: auto;
+
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+.intros, .categorys {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+
+  width: 50%;
+  height: 100vh;
+}
+
+.intros {
+  background-color: #222;
+}

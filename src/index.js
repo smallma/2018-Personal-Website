@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './styles/index.scss';
-import Main from './containers/index.js'
+import Main from './js/containers/index.js'
 
 
 ReactDOM.render(

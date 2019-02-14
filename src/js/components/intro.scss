@@ -1,0 +1,43 @@
+.intro {
+  position: relative;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  // .intor__bg {
+  //   position: absolute;
+  //   top: 0;
+  // }
+
+  .intro__hover {
+
+  }
+
+  .intor__avatar {
+    position: relative;
+
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+    border: 1px solid #bbb;
+  }
+
+  .intro__name {
+    position: relative;
+    margin-top: 1em;
+
+    font-size: 1.5em;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+  }
+
+  .intro__info {
+    position: relative;
+    margin-top: 10px;
+    padding: 0 10%;
+
+    font-size: 0.8em;
+    color: white;
+  }
+}

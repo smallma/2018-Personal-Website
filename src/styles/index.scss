@@ -1,3 +1,14 @@
-h2 {
-  color: red;
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  * {
+    font-family: 'Quicksand', sans-serif;
+  }
+}
+
+
+figure {
+  display: block;
+  margin: 0 auto;
 }
